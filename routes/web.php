@@ -5,7 +5,7 @@ $router->get('/', function () use ($router) {
 });
 
 $router->group(['prefix' => 'admin'], function() use ($router){
-	$router->get('/tes', 'tesController@index');
+	$router->get('/home', 'homeController@index');
 });
 // $router->get('/key', function () use ($router) {
 //     return \Illuminate\Support\Str::random(32);
