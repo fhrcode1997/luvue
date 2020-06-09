@@ -10,7 +10,7 @@ let mix = require('laravel-mix');
  | file for your application, as well as bundling up your JS files.
  |
  */
-mix.js('resources/js/app.js', 'public/js')
+mix.js('resources/vue/app.js', 'public/js')
    .sass('resources/sass/app.scss', 'public/css')
    .sourceMaps()
    .setResourceRoot('../');
